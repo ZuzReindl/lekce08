@@ -39,3 +39,12 @@ body {
 
 
 /* ------------------------------------------ */
+.kolecko {
+	transition: 5s;
+}
+.kolecko:hover {
+	border-radius: 50%;
+	width: 1200px;
+	height: 1000px;
+	background-color: blue;
+}

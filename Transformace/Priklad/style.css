@@ -21,6 +21,22 @@ h2 {
 
 /* ----------------------- */
 
+.posun {
+	transition: transform 0.3s;
+}
 
+.posun:hover {
+	transform: translate(10px, 10px);
+}
 
+.rotace {
+	transition: 4s;
+}
 
+.rotace:hover {
+	transform: rotate(720deg);
+}
+
+.zvetseni {
+	transition: transform 6s;
+}
